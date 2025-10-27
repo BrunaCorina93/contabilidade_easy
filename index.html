@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noções Básicas de Contabilidade</title>
+     <link rel="stylesheet" href="./src/css/style.css">
+    
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+        <a href="#" class="logo-pill">
+            <div class="logo-icon">C</div>
+            <span class="logo-text">CIEE<span class="logo-subtext">/PR</span></span>
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="header-content">
+            <h1>Noções Básicas de Contabilidade</h1>
+            <p class="subtitle">Aprenda os fundamentos da contabilidade de forma simples e prática</p>
+        </div>
+    </div>
+</header>
+     
+    <div class="container">
+        <section class="card"> 
+            <h2>Breve história da Contabilidade</h2>
+            <p>A contabilidade tem raízes milenares, remontando às civilizações antigas como os sumérios e egípcios, que já registravam transações comerciais em tábuas de argila. No entanto, foi no século XV que ela deu um salto significativo com a obra de Luca Pacioli, um frade franciscano italiano considerado o "pai da contabilidade". Em 1494, ele publicou o tratado Summa de Arithmetica, que introduziu o método das partidas dobradas — base dos sistemas contábeis modernos. Desde então, a contabilidade evoluiu acompanhando o desenvolvimento econômico, tecnológico e social, tornando-se uma ferramenta essencial para a gestão, transparência e tomada de decisões nas organizações.</p>
+            <div class="highlight">
+                <p><strong>Curiosidade: </strong>A contabilidade surgiu há milênios, mas foi com Luca Pacioli, no século XV, que ela se transformou em ciência moderna com o método das partidas dobradas, tornando-se essencial para a gestão e tomada de decisões nas organizações.</p>
+            </div>
+
+            <h2>O que é Contabilidade?</h2>
+            <p>A contabilidade é a ciência que estuda e controla o patrimônio das entidades (empresas, pessoas físicas, organizações). Seu objetivo é registrar, organizar e demonstrar os fatos e movimentos financeiros de forma clara e precisa.</p>
+            
+            <div class="highlight">
+                <p><strong>Patrimônio:</strong> Conjunto de bens, direitos e obrigações de uma entidade.</p>
+            </div>
+        </section>
+        
+        <section class="card">
+            <h2>Princípios Fundamentais da Contabilidade</h2>
+            <p>Os princípios contábeis são as regras básicas que orientam a prática da contabilidade:</p>
+            
+            <div class="principle-grid">
+                <div class="principle-card">
+                    <h3>Entidade</h3>
+                    <p>Empresa e sócios são coisas distintas. O patrimônio da empresa não se confunde com o patrimônio dos seus donos.</p>
+                </div>
+                
+                <div class="principle-card">
+                    <h3>Competência</h3>
+                    <p>Os registros devem ser feitos no momento em que os fatos ocorrem, independentemente do recebimento ou pagamento.</p>
+                </div>
+                
+                <div class="principle-card">
+                    <h3>Prudência</h3>
+                    <p>Não antecipar lucros, mas prever todas as possíveis perdas. "Quando em dúvida, opte pelo menor valor para os ativos e maior para os passivos".</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="card">
+            <h2>Método das Partidas Dobradas</h2>
+            <p>É o sistema universal de registro contábil que estabelece que <strong>para cada débito em uma conta, deve haver um crédito de igual valor em outra conta</strong>.</p>
+            
+            <div class="highlight">
+                <p><strong>Débito:</strong> Aplicação do recurso (para onde foi o dinheiro)</p>
+                <p><strong>Crédito:</strong> Origem do recurso (de onde veio o dinheiro)</p>
+            </div>
+            
+            <h3>Exemplos Práticos:</h3>
+            
+            <div class="example-box">
+                <h4>Compra de computador à vista por R$ 2.000</h4>
+                <table class="debit-credit-table">
+                    <tr>
+                        <th>Conta</th>
+                        <th>Débito</th>
+                        <th>Crédito</th>
+                    </tr>
+                    <tr>
+                        <td>Equipamentos (Computador)</td>
+                        <td class="debit">R$ 2.000</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Caixa</td>
+                        <td></td>
+                        <td class="credit">R$ 2.000</td>
+                    </tr>
+                </table>
+                <p><strong>Explicação:</strong> Aplicamos recursos no computador (débito) que saíram do caixa (crédito).</p>
+            </div>
+            
+            <div class="example-box">
+                <h4>Venda de serviço à vista por R$ 1.500</h4>
+                <table class="debit-credit-table">
+                    <tr>
+                        <th>Conta</th>
+                        <th>Débito</th>
+                        <th>Crédito</th>
+                    </tr>
+                    <tr>
+                        <td>Caixa</td>
+                        <td class="debit">R$ 1.500</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Receita de Serviços</td>
+                        <td></td>
+                        <td class="credit">R$ 1.500</td>
+                    </tr>
+                </table>
+                <p><strong>Explicação:</strong> Entrou dinheiro no caixa (débito) proveniente da receita de serviços (crédito).</p>
+            </div>
+        </section>
+        
+        <section class="card">
+            <h2>Juros na Contabilidade</h2>
+            <p>Os juros seguem a mesma lógica das partidas dobradas:</p>
+            
+            <div class="example-box">
+                <h4>Pagamento de juros de empréstimo (R$ 300)</h4>
+                <table class="debit-credit-table">
+                    <tr>
+                        <th>Conta</th>
+                        <th>Débito</th>
+                        <th>Crédito</th>
+                    </tr>
+                    <tr>
+                        <td>Despesa com Juros</td>
+                        <td class="debit">R$ 300</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Banco</td>
+                        <td></td>
+                        <td class="credit">R$ 300</td>
+                    </tr>
+                </table>
+                <p><strong>Explicação:</strong> Aplicamos recursos no pagamento de juros (débito) que saíram do banco (crédito).</p>
+            </div>
+            
+            <div class="example-box">
+                <h4>Recebimento de juros de aplicação (R$ 150)</h4>
+                <table class="debit-credit-table">
+                    <tr>
+                        <th>Conta</th>
+                        <th>Débito</th>
+                        <th>Crédito</th>
+                    </tr>
+                    <tr>
+                        <td>Banco</td>
+                        <td class="debit">R$ 150</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Receita de Juros</td>
+                        <td></td>
+                        <td class="credit">R$ 150</td>
+                    </tr>
+                </table>
+                <p><strong>Explicação:</strong> Entrou dinheiro no banco (débito) proveniente de receita com juros (crédito).</p>
+            </div>
+        </section>
+        
+        <section class="activity-section">
+            <h2>Atividades de Fixação</h2>
+            <p>Clique em cada questão para ver a resposta e explicação:</p>
+            
+            <div class="example-box" style="background-color: rgba(255,255,255,0.1); color: white; border: none;">
+                <h3>Atividade 1: Observe as situações abaixo e diga qual princípio foi violado: </h3>
+                
+                <div class="quiz-item" onclick="toggleAnswer('answer1')">
+                    <div class="quiz-question">1. O dono usa o cartão da empresa para compras pessoais.</div>
+                    <div class="quiz-answer" id="answer1">
+                        <strong>PRINCÍPIO VIOLADO: ENTIDADE</strong><br>
+                        <strong>Explicação:</strong> O Princípio da Entidade estabelece que o patrimônio da empresa deve ser separado do patrimônio dos sócios. Ao usar o cartão da empresa para despesas pessoais, há uma mistura indevida de patrimônios.
+                    </div>
+                </div>
+                
+                <div class="quiz-item" onclick="toggleAnswer('answer2')">
+                    <div class="quiz-question">2. A empresa registra uma venda apenas quando recebe o pagamento.</div>
+                    <div class="quiz-answer" id="answer2">
+                        <strong>PRINCÍPIO VIOLADO: COMPETÊNCIA</strong><br>
+                        <strong>Explicação:</strong> O Princípio da Competência determina que os fatos devem ser registrados no momento em que ocorrem, independentemente do recebimento ou pagamento. A venda deve ser registrada quando o bem é entregue ou o serviço é prestado, não quando o dinheiro é recebido.
+                    </div>
+                </div>
+                
+                <div class="quiz-item" onclick="toggleAnswer('answer3')">
+                    <div class="quiz-question">3. A empresa cria uma reserva para possíveis prejuízos com clientes.</div>
+                    <div class="quiz-answer" id="answer3">
+                        <strong>PRINCÍPIO APLICADO: PRUDÊNCIA</strong><br>
+                        <strong>Explicação:</strong> O Princípio da Prudência orienta que devem ser reconhecidas todas as perdas já conhecidas ou estimáveis, mesmo que ainda não realizadas. Criar uma reserva para possíveis calotes é uma aplicação direta deste princípio.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="example-box" style="background-color: rgba(255,255,255,0.1); color: white; border: none;">
+                <h3>Atividade 2: Registre as Operações</h3>
+                
+                <div class="quiz-item" onclick="toggleAnswer('answer4')">
+                    <div class="quiz-question">1. Compra de matéria-prima a prazo por R$ 800</div>
+                    <div class="quiz-answer" id="answer4">
+                        <strong>REGISTRO:</strong>
+                        <table class="answer-table">
+                            <tr>
+                                <th>Conta</th>
+                                <th>Débito</th>
+                                <th>Crédito</th>
+                            </tr>
+                            <tr>
+                                <td>Estoque de Matéria-Prima</td>
+                                <td class="debit">R$ 800</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Fornecedores</td>
+                                <td></td>
+                                <td class="credit">R$ 800</td>
+                            </tr>
+                        </table>
+                        <strong>Explicação:</strong> A empresa adquiriu matéria-prima (aumento no ativo - débito) e contraiu uma dívida com fornecedores (aumento no passivo - crédito).
+                    </div>
+                </div>
+                
+                <div class="quiz-item" onclick="toggleAnswer('answer5')">
+                    <div class="quiz-question">2. Pagamento de salários com dinheiro do banco (R$ 2.500)</div>
+                    <div class="quiz-answer" id="answer5">
+                        <strong>REGISTRO:</strong>
+                        <table class="answer-table">
+                            <tr>
+                                <th>Conta</th>
+                                <th>Débito</th>
+                                <th>Crédito</th>
+                            </tr>
+                            <tr>
+                                <td>Despesa com Salários</td>
+                                <td class="debit">R$ 2.500</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Banco</td>
+                                <td></td>
+                                <td class="credit">R$ 2.500</td>
+                            </tr>
+                        </table>
+                        <strong>Explicação:</strong> A empresa teve uma despesa com salários (débito) e o dinheiro saiu da conta bancária (crédito).
+                    </div>
+                </div>
+                
+                <div class="quiz-item" onclick="toggleAnswer('answer6')">
+                    <div class="quiz-question">3. Recebimento de juros de aplicação financeira (R$ 120)</div>
+                    <div class="quiz-answer" id="answer6">
+                        <strong>REGISTRO:</strong>
+                        <table class="answer-table">
+                            <tr>
+                                <th>Conta</th>
+                                <th>Débito</th>
+                                <th>Crédito</th>
+                            </tr>
+                            <tr>
+                                <td>Banco</td>
+                                <td class="debit">R$ 120</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Receita de Juros</td>
+                                <td></td>
+                                <td class="credit">R$ 120</td>
+                            </tr>
+                        </table>
+                        <strong>Explicação:</strong> Entrou dinheiro no banco (débito) proveniente de receita com juros (crédito).
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn" onclick="toggleAllAnswers()">Mostrar/Ocultar Todas as Respostas</button>
+        </section>
+        
+        <section class="card">
+            <h2>Plano de Contas</h2>
+            <p>É o conjunto de contas organizadas de forma lógica que uma empresa utiliza para registrar suas operações. Cada empresa deve ter seu próprio plano de contas, adaptado às suas necessidades específicas.</p>
+            
+            <div class="highlight">
+                <p><strong>Exemplo de estrutura básica:</strong></p>
+                <ul>
+                    <li>Ativo (bens e direitos)</li>
+                    <li>Passivo (obrigações)</li>
+                    <li>Patrimônio Líquido (diferença entre ativo e passivo)</li>
+                    <li>Receitas (entradas de recursos)</li>
+                    <li>Despesas (saídas de recursos)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- NOVA SEÇÃO: EXERCÍCIOS DE DESPESA/OBRIGAÇÃO -->
+        <section class="card">
+            <h2>Exercícios: Despesa vs Obrigação</h2>
+            <p>Identifique se cada situação representa uma <strong>DESPESA</strong> ou uma <strong>OBRIGAÇÃO</strong>:</p>
+            
+            <div class="example-box">
+                <div class="quiz-item" onclick="toggleAnswer('answer7')">
+                    <div class="quiz-question">1. No final do mês, a empresa deve R$ 3.000 de salários aos funcionários.</div>
+                    <div class="quiz-answer" id="answer7">
+                        <strong>RESPOSTA: OBRIGAÇÃO</strong><br>
+                        <strong>Explicação:</strong> A empresa <strong>DEVE</strong> o pagamento, mas os funcionários ainda não trabalharam no próximo período. É uma dívida que será paga futuramente.<br>
+                        <strong>Registro:</strong> Salários a Pagar (Passivo)
+                    </div>
+                </div>
+                
+                <div class="quiz-item" onclick="toggleAnswer('answer8')">
+                    <div class="quiz-question">2. A empresa paga o aluguel do escritório referente ao mês atual.</div>
+                    <div class="quiz-answer" id="answer8">
+                        <strong>RESPOSTA: DESPESA</strong><br>
+                        <strong>Explicação:</strong> A empresa <strong>GASTOU/ CONSUMIOU</strong> o uso do escritório durante o mês. O recurso foi utilizado para gerar receita.<br>
+                        <strong>Registro:</strong> Despesa com Aluguel (Resultado)
+                    </div>
+                </div>
+                
+                <div class="quiz-item" onclick="toggleAnswer('answer9')">
+                    <div class="quiz-question">3. A empresa recebe a conta de energia elétrica, mas só pagará no próximo mês.</div>
+                    <div class="quiz-answer" id="answer9">
+                        <strong>RESPOSTA: AMBOS - Obrigação e Despesa</strong><br>
+                        <strong>Explicação:</strong> 
+                        - <strong>OBRIGAÇÃO</strong>: A empresa DEVE pagar a conta (Fornecedores a Pagar)<br>
+                        - <strong>DESPESA</strong>: A empresa já CONSUMIOU a energia no período (Despesa com Energia)<br>
+                        <strong>Registro:</strong><br>
+                        Débito: Despesa com Energia<br>
+                        Crédito: Energia a Pagar
+                    </div>
+                </div>
+            </div>
+            
+            <div class="highlight">
+                <p><strong>Lembrete:</strong> OBRIGAÇÃO = "EU DEVO" | DESPESA = "EU GASTEI/CONSUMI"</p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Material de Apoio - Noções Básicas de Contabilidade</p>
+            <p>CIEE/PR - Programa de Aprendizagem</p>
+        </div>
+    </footer>
+
+   
+         <script src="./src/js/scripit.js"></script>
+   
+</body>
+</html>
